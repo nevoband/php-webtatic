@@ -1,0 +1,8 @@
+---
+
+__epel_repo: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+__webtatic_repo: https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+
+__php_conf_path: "/etc/php.ini"
+
+apache_service: httpd

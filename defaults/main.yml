@@ -1,0 +1,13 @@
+# php version. currently only support: php56, php70 and php71
+php_version: php72
+
+# php.ini config
+max_execution_time: 300
+memory_limit: 512M
+upload_max_filesize: 16M
+post_max_size: 24M
+timezone: America/Chicago
+
+# Set apache state when configuration changes are made. Recommended values:
+# `restarted` or `reloaded`
+apache_restart_state: restarted
