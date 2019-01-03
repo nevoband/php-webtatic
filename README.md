@@ -1,2 +1,24 @@
-# php-webtatic
-Ansible role to install php72 from webtatic repo on CentOS 7 
+Role Name
+=========
+
+Role to install webtatic repo and PHP72
+
+Requirements
+------------
+
+
+Role Variables
+--------------
+
+
+Example Playbook
+----------------
+
+    - hosts: servers
+      roles:
+         - { role: php-webtatic }
+
+License
+-------
+
+MIT
